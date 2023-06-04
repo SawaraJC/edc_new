@@ -36,5 +36,6 @@
 
 li:hover {
     color: #e9e1e192;
+    cursor: pointer;
     /* box-shadow: 0 0 2px 2px #d8b206cf; */
 }
