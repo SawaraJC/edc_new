@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='bg-navy w-max flex pt-5 md:w-full md:h-96 md:bg-navy md:flex md:pt-0'>
 
       
-        <div className='w-48 h-24 pt-3 pl-4 md:w-48 md:h-32'>
+        <div className='invisible w-48 h-24 pt-3 pl-4 md:w-48 md:h-32 md:visible'>
           <img className='h-24 w-40 mt-6 pl-16 ml-2 md:h-28 md:w-44' src={logo}/>
           <h2 className='text-blond text-lg pl-12 mt-6 md:text-blond md:mt-6 md:text-3xl md:font-bold md:pl-6 md:text-justify'>Entrepreneurship</h2>
           <h2 className='text-blond text-lg pl-12 ml-2 md:text-blond md:text-3xl md:font-bold md:pl-10 md:ml-0'>Development</h2>
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       
       
-        <div className='text-blond text-xl pl-40 pt-5 font-bold md:text-blond md:text-2xl md:font-bold md:pl-40 md:mt-12'>
+        <div className='text-blond text-xl pl-0 -ml-32 pt-5 font-bold md:text-blond md:text-2xl md:font-bold md:pl-40 md:mt-12 md:ml-0'>
           <h2>Quick Links</h2>
           <ul className='text-blond text-md font-thin pt-2 md:text-blond md:text-lg md:font-semibold md:pt-2'>
             <li className='md:pl-4'>About</li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
 
-      <div className='text-blond text-xl font-bold pl-40 mt-5 md:text-blond md:text-2xl md:font-bold md:pl-20 md:mt-16'>
+      <div className='text-blond text-xl font-bold pl-12 mt-5 md:text-blond md:text-2xl md:font-bold md:pl-20 md:mt-16'>
         <h2 className='pl-3 md:pl-1'>Follow us on</h2>
         <div className='flex'>
           <a  href='https://www.instagram.com/edcviit/' target='_blank'>
@@ -52,7 +52,7 @@ const Footer = () => {
         
       </div>
 
-      <div className='text-blond text-xl font-bold pt-5 pl-40 md:text-blond md:text-2xl md:font-bold md:pl-20 md:mt-12'>
+      <div className='text-blond text-xl font-bold pt-5 pl-12 md:text-blond md:text-2xl md:font-bold md:pl-20 md:mt-12'>
         <h2 className='pl-2 pb-4 md:pl-6 md:pb-2'>Contact Us</h2>
         <div className='pb-4'>
           <a href='mailto:edc@viit.ac.in' className='font-thin md:font-semibold md:text-lg '>Email: edc@viit.ac.in </a>
@@ -72,7 +72,7 @@ const Footer = () => {
         
       </div>
 
-      <div className='invisible md:visible'>
+      <div className='invisible w-5 md:w-80 md:visible'>
         <a href='https://www.google.co.in/maps/place/EDC+VIIT/@18.4605415,73.8817141,17z/data=!4m6!3m5!1s0x3bc2eaf473dfa6d3:0x254f86fb9c3da40d!8m2!3d18.4605364!4d73.884289!16s%2Fg%2F11g65fzpkt?entry=ttu' target='_blank'>
           <iframe
             title="EDC address"

@@ -100,7 +100,7 @@ function NavBar() {
         },
     ]
   return (
-    <div className='flex justify-between items-center w-full h-20 text-blond bg-navy'>
+    <div className='flex justify-between items-center w-[43.5rem] md:w-full h-20 text-blond bg-navy'>
          <div>
             <h1 className='font-bold text-3xl ml-4 font-signature'>EDC VIIT</h1>
          </div>
@@ -118,9 +118,9 @@ function NavBar() {
          </div>
         
         {nav && (         
-        <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-navy'>
+        <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-[43.5rem] h-[89rem] bg-navy'>
          {links.map(({id, link}) => (
-                <li key={id} className='px-4 cursor-pointer capitalize py-6 text-3xl'>{link}</li>
+                <li key={id} className='px-4 cursor-pointer font-extrabold capitalize py-6 text-4xl'>{link}</li>
             ))}
          </ul>
          )}

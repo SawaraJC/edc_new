@@ -12,7 +12,8 @@ export default {
     colors: {
       navy: '#090937',
       blond: '#F7F7F7',
-      light_navy:'#151B54'
+      light_navy:'#151B54',
+      border_blue:'#082567'
     },
     
   },
