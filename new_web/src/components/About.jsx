@@ -5,16 +5,35 @@ const About = () => {
   return (
     <>
 
-    <div className='flex mt-5 w-[43.5rem] bg-navy h-[22rem]'>
-        <div className='w-[20rem] rounded-r-[150px] bg-blond h-[22rem]'>
-            <img src={Abt} className='w-[20rem] rounded-r-[150px] bg-blond h-[20rem]'/>
-        </div>
+    <div className='flex mt-0 md:w-full bg-blond w-[30.5rem] h-[22rem]'>
+      <div className='w-[30.5rem] py-4 md:py-1 md:w-1/2 pl-10 md:pl-32'>
+        <h2 className='text-[#000000] text-3xl pb-4 pl-32 md:text-4xl md:pb-4 md:pl-40 md:mt-16 font-bold'>About Us</h2>
+            <p className='text-justify text-[#000000] pr-6'>Out of the night that covers me,   
+      Black as the Pit from pole to pole,   
+    I thank whatever gods may be   
+      For my unconquerable soul.   
 
-        <div className='w-[23.5rem] bg-navy h-[20rem]'>
-        <h1 className='pl-4 text-3xl pt-5 font-extrabold text-blond'>About us</h1>
-        <p className='text-blond pl-5 pt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit saepe adipisci non amet sint ea magnam praesentium unde facere? Ipsum labore assumenda ea quibusdam cumque eos accusantium in inventore voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus illum, sapiente voluptatem illo consequuntur commodi explicabo fugit? Alias accusamus necessitatibus dolore tempora est distinctio vel illum doloribus voluptatem cumque!</p>
-        </div>
-      
+    In the fell clutch of circumstance 
+      I have not winced nor cried aloud.   
+    Under the bludgeonings of chance   
+      My head is bloody, but unbowed.   
+
+    Beyond this place of wrath and tears   
+      Looms but the Horror of the shade, 
+    And yet the menace of the years   
+      Finds, and shall find, me unafraid.   
+
+    It matters not how strait the gate,   
+      How charged with punishments the scroll,   
+    I am the master of my fate:
+      I am the captain of my soul.</p>
+      </div> 
+
+      <div className='w-0 h-0 md:w-1/2 md:pl-40'>
+        {/* <img src={Abt} className='md:w-96 md:mt-8 md:pr-20 md:h-72 w-0 h-0'/> */}
+        <iframe className='md:w-[35rem] md:-ml-10 md:-mt-20 md:pr-20 md:h-[30rem] md:drop-shadow-lg w-0 h-0' src="https://lottie.host/?file=bb753aec-57fd-4eab-ac3a-fecb70ab6da0/aY9ddSRQdt.json"></iframe>
+        
+      </div>
     </div>
 
     </>

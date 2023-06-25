@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Social from './components/Social'
 import About from './components/About'
 import Landing from './components/Landing'
+import ContactForm from './components/ContactForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +13,10 @@ function App() {
   return (
     <>
       <NavBar/>
-      {/* <About/> */}
-      <Landing/>
+      <About/>
+      {/* <Landing/> */}
       {/* <Social/> */}
+      <ContactForm/>
       <Footer/>
     </>
   )
