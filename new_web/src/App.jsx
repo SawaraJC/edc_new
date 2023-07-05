@@ -6,6 +6,9 @@ import Social from './components/Social'
 import About from './components/About'
 import Landing from './components/Landing'
 import ContactForm from './components/ContactForm'
+import Carousel from './components/Carousel'
+import Startup from './components/Startup'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,11 +16,15 @@ function App() {
   return (
     <>
       <NavBar/>
-      <About/>
+      {/* <About/> */}
       {/* <Landing/> */}
       {/* <Social/> */}
-      <ContactForm/>
-      <Footer/>
+      {/* <Startup/> */}
+      {/* <Try/> */}
+      {/* <Trial/> */}
+      <Carousel/>
+      {/* <ContactForm/> */}
+      {/* <Footer/> */}
     </>
   )
 }
