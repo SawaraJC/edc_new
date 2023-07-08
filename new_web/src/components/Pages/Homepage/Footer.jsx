@@ -96,18 +96,18 @@ const Footer = () => {
     <div className='w-[30.5rem] bg-navy h-96 md:w-full md:h-80 md:flex' >
       <div className='flex md:flex-col'>
         <div className='w-[13.5rem] md:w-[15.5rem] border-r-2 border-blond h-24 mt-5 md:mt-3 md:border-none'>
-          <img src={logo} className='w-20 h-20 ml-28 mt-3 md:ml-12 md:w-40 md:h-40'/>
+          <img src={logo} className='w-20 h-20 ml-28 mt-3 md:ml-24 md:w-40 md:h-40'/>
         </div>
 
-        <div className='w-[10rem] text-blond mt-8 pl-5 md:mt-24 md:text-xl md:pl-12 md:font-semibold'>
+        <div className='w-[10rem] text-blond mt-8 pl-5 md:mt-24 md:text-xl md:ml-20 md:font-semibold'>
           <h2 className='md:pl-0'>Enterpreneurship</h2>
-          <h2 className='md:pl-2'>Development</h2>
-          <h2 className='md:pl-5'>Cell, VIIT</h2>
+          <h2 className='md:pl-3'>Development</h2>
+          <h2 className='md:pl-6'>Cell, VIIT</h2>
         </div>
 
       </div>
 
-      <div>
+      <div className='ml-5 md:ml-12'>
         <h2 className='text-blond mt-8 ml-2 font-medium text-md'>Quick Links</h2>
         <ul>
           <li className='pl-2 text-blond font-thin text-sm md:text-lg'>About</li>
@@ -117,15 +117,15 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className='text-blond ml-6'>  
+      <div className='text-blond ml-8'>  
       <h2 className='text-blond -mt-28 ml-28 pt-2 font-medium text-md md:text-blond md:mt-5 md:ml-12 md:font-medium md:text-lg'>Follow us</h2>
       <div className='ml-28 flex'>
-        <div className='-ml-1 md:-ml-16'>
+        <div className='-ml-1'>
           <a  href='https://www.instagram.com/edcviit/' target='_blank'>
             <GrInstagram size={35} className='pt-3'/>
           </a>
         </div>
-        <div className='-ml-1 md:-ml-1'>
+        <div className='-ml-1 md:-ml-24'>
           <a  href='https://www.linkedin.com/company/entrepreneurship-development-cell-viit/mycompany/' target='_blank'>
              <FaLinkedin size={36} className='pt-3'/>
           </a>
@@ -133,12 +133,12 @@ const Footer = () => {
       </div>
 
       <div className='ml-28 flex'>
-        <div className='-ml-1 md:-ml-16'>
+        <div className='-ml-1'>
           <a  href='https://twitter.com/EdcViit' target='_blank'>
              <FaTwitter size={36} className='pt-3'/>
           </a>
         </div>
-        <div className='-ml-1 md:-ml-1'>
+        <div className='-ml-1 md:-ml-24'>
           <a  href='https://youtube.com/@edcviit' target='_blank'>
              <FaYoutube size={36} className='pt-3'/>
           </a>
@@ -146,7 +146,7 @@ const Footer = () => {
       </div>
       </div>
 
-      <div className='text-blond ml-64 -mt-28 md:ml-20 md:mt-4'>
+      <div className='text-blond ml-64 -mt-28 md:ml-24 md:mt-4'>
         <h2 className='text-blond pt-4 font-medium text-md'>
           Contact us
         </h2>
@@ -169,13 +169,15 @@ const Footer = () => {
 
       </div>
 
+      
+
       <div className='invisible md:visible'>
 
         <a href='https://www.google.co.in/maps/place/EDC+VIIT/@18.4605415,73.8817141,17z/data=!4m6!3m5!1s0x3bc2eaf473dfa6d3:0x254f86fb9c3da40d!8m2!3d18.4605364!4d73.884289!16s%2Fg%2F11g65fzpkt?entry=ttu' target='_blank'>
            <iframe
              title="EDC address"
              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.510057981493!2d73.88171407387703!3d18.460541471007737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaf473dfa6d3%3A0x254f86fb9c3da40d!2sEDC%20VIIT!5e0!3m2!1sen!2sin!4v1685876557402!5m2!1sen!2sin"
-             className="w-0 h-0 md:w-96 md:h-60 md:ml-16 md:mt-5"
+             className="w-0 h-0 rounded-3xl md:w-[22rem] md:h-60 md:ml-20 md:mt-8"
              allowFullScreen=""
              loading="lazy"
            ></iframe>
