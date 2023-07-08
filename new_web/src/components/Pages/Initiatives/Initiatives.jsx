@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Team = () => {
+const Initiatives = () => {
   return (
     <div className='font-extrabold text-5xl'>
       Work in progress
@@ -8,4 +8,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Initiatives
