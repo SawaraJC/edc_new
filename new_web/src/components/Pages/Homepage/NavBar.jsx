@@ -33,7 +33,7 @@ function NavBar() {
         },
     ]
   return (
-    <div className='flex justify-between items-center w-[30.5rem] md:w-full h-20 text-blond bg-navy'>
+    <div className='flex justify-between items-center w-[30.5rem] md:w-full h-20 text-blond bg-transparent'>
          <div>
             <h1 className='font-bold text-3xl ml-4 font-signature'>EDC VIIT</h1>
          </div>

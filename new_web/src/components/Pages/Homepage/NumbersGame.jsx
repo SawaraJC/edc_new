@@ -4,7 +4,7 @@ import {FaChalkboardTeacher} from 'react-icons/fa'
 
 function NumbersGame() {
   return (
-    <div className='h-[70rem] md:w-full md:flex md:bg-blond md:h-[20rem] md:pl-16'>
+    <div className='h-[70rem] md:w-full md:flex mt-10 md:h-[20rem] md:pl-16'>
         <div className='w-[13rem] hover:scale-105 mb-12 h-[15rem] bg-gradient-to-tr from-[#20A4F3] to-[#182B3A] rounded-br-xl rounded-tl-xl ml-40 translate-y-9 drop-shadow-[10px_10px_7px_rgba(0,0,0,0.50)]'>
             <MdBusiness size={75} className='pt-5 md:pt-0 md:mt-4 ml-[4.5rem] text-blond'/>
             <hr className='w-2/3 ml-9 md:translate-y-0 translate-y-3 pb-3 md:pb-0'/>
