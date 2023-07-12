@@ -5,6 +5,7 @@ import NumbersGame from './NumbersGame'
 // import Time from './Time'
 // import Time from './Time'
 import TimeLine from './Timeline'
+import Landing from './Landing'
 import ContactForm from './ContactForm'
 import Footer from './Footer'
 // import Carousel from './Carousel'
@@ -15,6 +16,7 @@ const Homepage = () => {
   return (
     <div className='bg-gradient-to-r from-[#12100E] to-[#2B4162] md:w-full w-[30.5rem]'>
       <NavBar/>
+      <Landing/>
       <About/>
       <NumbersGame/>
       {/* <Carousel/>
