@@ -1,0 +1,120 @@
+li:hover {
+  color: #e9e1e192;
+  cursor: pointer;
+  /* box-shadow: 0 0 2px 2px #d8b206cf; */
+}
+
+/* 
+.bg-gradient {
+  background: rgb(30, 36, 208);
+  background: rgb(30, 36, 208);
+  background: radial-gradient(
+    circle,
+    rgba(30, 36, 208, 1) 0%,
+    rgba(22, 27, 154, 1) 10%,
+    rgba(15, 19, 108, 1) 26%,
+    rgba(0, 0, 0, 1) 100%
+  );
+} */
+
+.bbutton {
+  text-decoration: none;
+  background: linear-gradient(to top right, rgb(109 173 255), rgb(255 255 255));
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 4em;
+  box-shadow: inset rgba(9, 9, 55, 0.902) 20px -19px 100px -42px,
+    rgb(14 14 65) -6px 6px 60px -30px,
+    rgba(9, 9, 55, 0.916) 0px -2px 6px 0px inset;
+  /* text-shadow: -2px 2px rgb(199, 199, 199); */
+}
+
+.icon-logo1 {
+  animation: hover 3.5s ease-in-out infinite;
+  position: absolute;
+
+  bottom: 60%;
+  right: 7%;
+  height: 6rem;
+  width: 6rem;
+}
+/* .icon-logo1 span {
+  margin: 25px;
+}
+.icon-logo2 span {
+  margin: 25px;
+}
+.icon-logo3 span {
+  margin: 25px;
+}
+.icon-logo4 span {
+  margin: 25px;
+} */
+
+.icon-logo2 {
+  animation: hover 3.5s ease-in-out infinite;
+  position: absolute;
+
+  bottom: 60%;
+  right: 87%;
+  height: 6rem;
+  width: 6rem;
+}
+
+.icon-logo3 {
+  animation: hover 3.5s ease-in-out infinite;
+  position: absolute;
+
+  bottom: 17%;
+  right: 79%;
+  height: 6rem;
+  width: 6rem;
+}
+
+.icon-logo4 {
+  animation: hover 3.5s ease-in-out infinite;
+  position: absolute;
+  bottom: 17%;
+  right: 13%;
+  height: 6rem;
+  width: 6rem;
+}
+
+@keyframes hover {
+  0% {
+    transform: rotate(-5deg) translatey(0px);
+  }
+
+  50% {
+    transform: rotate(-3deg) translatey(7px);
+  }
+
+  100% {
+    transform: rotate(-5deg) translatey(0px);
+  }
+}
+
+.centerr {
+  text-align: center;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  bottom: -30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  /* background-color: #000; */
+  color: #fff;
+  font-size: 16px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.icon-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
