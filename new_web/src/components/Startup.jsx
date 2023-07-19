@@ -4,7 +4,7 @@ import './Startup.css'
 import 'swiper/css'
 import 'swiper/css/pagination'
 // import 'swiper/css/navigation'
-import { Autoplay,Navigation, Pagination } from 'swiper'
+import { Autoplay,Navigation, Pagination } from 'swiper/modules'
 
 const startups=[
     {
@@ -97,7 +97,7 @@ export default function Startup() {
                 navigation={{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev',clickable:true, hideOnClick:true,}}
                 autoplay={{
                     delay: 3000,
-                    disableOnInteraction: true
+                    disableOnInteraction: false
                 }}
                 modules={[Autoplay,Pagination,Navigation]}
             >
@@ -124,15 +124,8 @@ export default function Startup() {
                     ))
                 }
             </Swiper>
-            <div className='grid place-content-center'>
-                <div className=" justify-center ">
-                    <ul>
-                        <li> </li>
-                        <li> </li>
-                        <li> </li>
-                        <li> </li>
-                    </ul>
-                </div>   
+            <div className=' grid place-content-center '> 
+                <div className='swip_pagination '></div>
             </div>
         </div>
         <div className="absolute w-full  px-8 flex justify-between text-transparent text-5xl z-50  hover:text-blond ">
